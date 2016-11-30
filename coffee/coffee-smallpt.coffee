@@ -122,6 +122,6 @@ main = ->
     ++y
   write_ppm w, h, Ls
   t1 = performance.now()
-  console.log 'Rendering time: ' + t1 - t0 + ' ms'
+  console.log 'Rendering time: ' + (t1 - t0) + ' ms'
   display w, h, Ls
   return
