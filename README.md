@@ -1,3 +1,8 @@
+[![License][s1]][li]
+
+[s1]: https://img.shields.io/badge/license-MIT-blue.svg
+[li]: https://raw.githubusercontent.com/matt77hias/coffee-smallpt/master/LICENSE.txt
+
 # [coffee-smallpt](https://matt77hias.github.io/coffee-smallpt/)
 
 ## About
