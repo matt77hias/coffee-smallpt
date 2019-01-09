@@ -10,7 +10,7 @@ write_ppm = (w, h, Ls) ->
       data += to_byte(L.x, GAMMA) + ' ' + to_byte(L.y, GAMMA) + ' ' + to_byte(L.z, GAMMA) + ' '
       ++x
     ++y
-  download_file data, 'coffee-smallpt.ppm', 'text/plain'
+  download_file data, 'coffee-image.ppm', 'text/plain'
   return
 
 download_file = (data, fname, type) ->
