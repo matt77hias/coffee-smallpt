@@ -16,7 +16,7 @@ write_ppm = function(w, h, Ls) {
     }
     ++y;
   }
-  download_file(data, 'coffee-smallpt.ppm', 'text/plain');
+  download_file(data, 'coffee-image.ppm', 'text/plain');
 };
 
 download_file = function(data, fname, type) {
